@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -8,7 +8,7 @@ function Footer() {
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4">
         {/* Social Media Icons */}
         <div className="flex items-center justify-center space-x-2 sm:space-x-4">
-          <a
+          {/* <a
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ function Footer() {
             className="hover:text-gray-500 text-sm sm:text-base"
           >
             <FontAwesomeIcon icon={faFacebook} size="lg" />
-          </a>
+          </a> */}
         </div>
 
         {/* Logo */}
@@ -37,7 +37,7 @@ function Footer() {
         <div className="flex items-center justify-center text-center sm:text-right">
           <div>
             <p className="mb-1 sm:mb-0 text-xs sm:text-sm">Contact us: example@email.com</p>
-            <p className="text-xs sm:text-sm">Phone: +123 456 7890</p>
+            <p className="text-xs sm:text-sm">Phone: +91 8247464848</p>
           </div>
         </div>
       </div>

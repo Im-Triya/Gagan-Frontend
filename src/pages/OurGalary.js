@@ -19,7 +19,7 @@ function OurGalary() {
         </div>
 
         {/* 2nd and 3rd Columns */}
-        <div className="col-span-2">
+        <div className="col-span-2 items-center justify-center flex-col">
           <Galary autoSlide={true} />
         </div>
 

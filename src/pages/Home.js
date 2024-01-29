@@ -11,7 +11,7 @@ function Home() {
         <img
           src={CoupleImage}
           alt="Couple"
-          className="w-full h-auto object-cover min-h-screen opacity-60 "
+          className="w-full h-auto object-cover min-h-screen opacity-70 "
         />
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 font-serif text-center text-white w-full opacity-100">
           <p className="text-4xl sm:text-4xl lg:text-8xl font-bold mb-2 mx-auto">

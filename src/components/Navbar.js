@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const [isSidePanelOpen, setSidePanelOpen] = useState(false);
@@ -15,9 +16,24 @@ function Navbar() {
   };
 
   const handleNavigation = (path) => {
-    navigate(path);
+    if (path === "/contact-us") {
+      // For the "Contact Us" link, scroll to the footer instead of navigating
+      scrollToFooter();
+    } else {
+      // For other links, navigate as usual
+      navigate(path);
+      closeSidePanel();
+    }
+  };
+
+  const scrollToFooter = () => {
+    scroll.scrollToBottom({
+      duration: 800,
+      smooth: "easeInOutQuart",
+    });
     closeSidePanel();
   };
+
 
   return (
     <div className="bg-yellow-700 bg-opacity-20 text-yellow-900 p-2">
@@ -46,9 +62,15 @@ function Navbar() {
           <Link to="/ourgalary" className="mx-2 hover:text-yellow-200">
             Our Gallery
           </Link>
-          <Link to="/contact-us" className="mx-2 hover:text-yellow-200">
+          <ScrollLink
+            to="footer" // Assuming the ID of your footer is "footer"
+            smooth={true}
+            duration={800}
+            className="mx-2 hover:text-yellow-200 cursor-pointer"
+            onClick={() => scrollToFooter()}
+          >
             Contact Us
-          </Link>
+          </ScrollLink>
           {/* <Link to="/guestlist" className="mx-2 hover:text-yellow-200">
             Guest List
           </Link>
