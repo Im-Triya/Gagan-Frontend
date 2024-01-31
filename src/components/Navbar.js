@@ -34,7 +34,6 @@ function Navbar() {
     closeSidePanel();
   };
 
-
   return (
     <div className="bg-yellow-700 bg-opacity-20 text-yellow-900 p-2">
       <div className="container mx-auto flex items-center justify-between">
@@ -81,9 +80,11 @@ function Navbar() {
 
         {/* Side Panel */}
         <div
-          className={`lg:hidden fixed top-0 left-0 h-fit w-1/2 bg-yellow-700 opacity-50 p-4 transform ${
+          className={`lg:hidden fixed top-0 left-0 h-full w-1/2 bg-yellow-700 opacity-50 p-4 transform ${
             isSidePanelOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform`}
+          style={{ zIndex: 9999 }} // Set a higher z-index value
+          onClick={(e) => e.stopPropagation()} // Stop propagation of clicks within the side panel
         >
           <button
             onClick={closeSidePanel}
@@ -102,24 +103,38 @@ function Navbar() {
             Start here
           </button>
 
-          <div
+          <button
             className="block mb-2 text-white text-lg font-serif font-semibold hover:text-yellow-950"
-            onClick={() => handleNavigation("/ourwedding")}
+            onClick={() => {
+              console.log("navigating to our wedding");
+              handleNavigation("/ourwedding");
+            }}
           >
             Our Wedding
-          </div>
-          <div
+          </button>
+
+          <button
             className="block mb-2 text-white text-lg font-serif font-semibold hover:text-yellow-950"
-            onClick={() => handleNavigation("/ourgalary")}
+            onClick={() => {
+              console.log("navigating to our gallery");
+              handleNavigation("/ourgalary");
+            }}
           >
             Our Gallery
-          </div>
-          <div
+          </button>
+
+          <ScrollLink
+            to="footer" // Assuming the ID of your footer is "footer"
+            smooth={true}
+            duration={800}
             className="block mb-2 text-white text-lg font-serif font-semibold hover:text-yellow-950"
-            onClick={() => handleNavigation("/contact-us")}
+            onClick={() => {
+              console.log("scrolling to footer");
+              scrollToFooter();
+            }}
           >
             Contact Us
-          </div>
+          </ScrollLink>
         </div>
       </div>
     </div>

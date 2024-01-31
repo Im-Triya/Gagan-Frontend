@@ -2,8 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import CoupleImage from "../images/Couple2.JPG";
+// import CoupleImage from "../images/Couple2.JPG";
 import HaldiImage from "../images/OurWedding/Haldi.jpg";
+import WeddingImage from "../images/OurWedding/Wedding.jpg";
+import ReceptionImage from "../images/OurWedding/Reception.jpg";
+import Pellikoduku from "../images/OurWedding/Pellikoduku.jpg";
 
 function OurWedding() {
   return (
@@ -13,7 +16,7 @@ function OurWedding() {
         {/* ROW 1 */}
         <div className="flex items-center justify-center">
           <img
-            src={CoupleImage}
+            src={Pellikoduku}
             className="w-full max-h-full p-5 opacity-70"
             alt=""
           />
@@ -70,7 +73,7 @@ function OurWedding() {
         {/* ROW 3 */}
         <div className="flex items-center justify-center">
           <img
-            src={CoupleImage}
+            src={WeddingImage}
             className="w-full max-h-full p-5 opacity-70"
             alt=""
           />
@@ -121,7 +124,7 @@ function OurWedding() {
         </div>
         <div className="flex items-center justify-center">
           <img
-            src={CoupleImage}
+            src={ReceptionImage}
             className="w-full max-h-full p-5 opacity-70"
             alt=""
           />

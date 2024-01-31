@@ -36,7 +36,7 @@ function Footer() {
         {/* Contact Information */}
         <div className="flex items-center justify-center text-center sm:text-right">
           <div>
-            <p className="mb-1 sm:mb-0 text-xs sm:text-sm">Contact us: example@email.com</p>
+            <p className="mb-1 sm:mb-0 text-xs sm:text-sm">Contact us: gaganparikshith02@gmail.com</p>
             <p className="text-xs sm:text-sm">Phone: +91 8247464848</p>
           </div>
         </div>
