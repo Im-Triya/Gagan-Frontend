@@ -53,7 +53,7 @@ function Navbar() {
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex lg:items-center">
           <Link to="/" className="mx-2 hover:text-yellow-200">
-            Start here
+            Our Journey
           </Link>
           <Link to="/ourwedding" className="mx-2 hover:text-yellow-200">
             Our Wedding
@@ -100,7 +100,7 @@ function Navbar() {
               console.log("navigating home");
             }}
           >
-            Start here
+            Our Journey
           </button>
 
           <button
