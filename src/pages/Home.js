@@ -15,7 +15,7 @@ function Home() {
             className="w-full h-screen object-cover max-h-screen sm:max-h-full opacity-70"
           />
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 font-serif text-center text-white w-full opacity-100">
-            <p className="text-4xl sm:text-4xl lg:text-8xl font-bold mb-2 mx-auto">
+            <p className="text-5xl sm:text-4xl lg:text-8xl font-bold lg:mb-20 mb-60 mx-auto lg:bg-yellow-600 bg-yellow-800 lg:bg-opacity-30 bg-opacity-30">
               Sukesh Gulipalli & Vikasini
             </p>
           </div>
