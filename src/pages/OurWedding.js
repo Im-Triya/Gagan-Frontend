@@ -3,16 +3,52 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 // import CoupleImage from "../images/Couple2.JPG";
-import HaldiImage from "../images/OurWedding/Haldi.jpg";
+import HaldiImage from "../images/OurWedding/Haldi2.jpg";
 import WeddingImage from "../images/OurWedding/Wedding.jpg";
 import ReceptionImage from "../images/OurWedding/Reception.jpg";
 import Pellikoduku from "../images/OurWedding/Pellikoduku.jpg";
+import Pellikuturu from "../images/OurWedding/pellikuturu.jpg";
 
 function OurWedding() {
   return (
     <div>
       <Navbar />
       <div className="content-container grid grid-cols-1 md:grid-cols-2 gap-8 m-5">
+        {/* ROW 0 */}
+        
+        <div className="flex items-center justify-center">
+          <div className="font-serif text-right">
+            <p className="font text-3xl md:text-5xl mb-2 text-yellow-950">
+              Pelli Kuturu Ceremony
+            </p>
+            <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
+              12th February, 2024
+            </p>
+            <p className="text-lg md:text-xl mb-2 text-yellow-800">
+              6-140, Opp. Five star Koli Hut, Pulagalipalem Road, Pendurthi,
+              Visakhapatnam
+            </p>
+
+            <p className="text-base md:text-lg mt-5 text-yellow-950">
+              Step into the enchanting ritual where the bride, adorned in the
+              elegance of tradition, graces the ceremony with the colors of
+              anticipation. It's a mesmerizing dance of grace and ritual, where
+              promises are woven into the fabric of destiny. Join in the
+              celebration as the bride embraces the sacred journey, inviting
+              your soul to twirl in the cosmic waltz of love's timeless
+              symphony.
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
+          <img
+            src={Pellikuturu}
+            className="w-full max-h-full p-5 opacity-70"
+            alt=""
+          />
+        </div>
+       
+
         {/* ROW 1 */}
         <div className="flex items-center justify-center">
           <img
@@ -30,7 +66,8 @@ function OurWedding() {
               12th February, 2024
             </p>
             <p className="text-lg md:text-xl mb-2 text-yellow-800">
-              Main House, Vizag
+              49-54-15/9/2/2/3 , individual house, 49-54-15/9/2, North
+              extension, Balayya Sastri Layout, Seethammadra Visakhapatnam
             </p>
 
             <p className="text-base md:text-lg mt-5 text-yellow-950">

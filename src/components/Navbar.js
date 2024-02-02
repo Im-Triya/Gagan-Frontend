@@ -44,7 +44,7 @@ function Navbar() {
         </div>
 
         {/* Mobile Menu Button (Hamburger) */}
-        <div className="lg:hidden">
+        <div className="lg:hidden bg-yellow-950 text-white">
           <button onClick={toggleSidePanel} className="text-3xl">
             ☰
           </button>
@@ -80,7 +80,7 @@ function Navbar() {
 
         {/* Side Panel */}
         <div
-          className={`lg:hidden fixed top-0 left-0 h-full w-1/2 bg-yellow-700 opacity-50 p-4 transform ${
+          className={`lg:hidden fixed top-0 left-0 h-full w-1/2 bg-yellow-950 opacity-50 p-4 transform ${
             isSidePanelOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform`}
           style={{ zIndex: 9999 }} // Set a higher z-index value
