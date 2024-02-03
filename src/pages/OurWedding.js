@@ -24,6 +24,9 @@ function OurWedding() {
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
               12th February, 2024
             </p>
+            <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
+              11:30 AM
+            </p>
             <p className="text-lg md:text-xl mb-2 text-yellow-800">
               6-140, Opp. Five star Koli Hut, Pulagalipalem Road, Pendurthi,
               Visakhapatnam
@@ -65,6 +68,9 @@ function OurWedding() {
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
               12th February, 2024
             </p>
+            <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
+              8:30 AM
+            </p>
             <p className="text-lg md:text-xl mb-2 text-yellow-800">
               49-54-15/9/2/2/3 , individual house, 49-54-15/9/2, North
               extension, Balayya Sastri Layout, Seethammadra Visakhapatnam
@@ -86,6 +92,9 @@ function OurWedding() {
             </p>
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
               13th February, 2024
+            </p>
+            <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
+              9:00 AM
             </p>
             <p className="text-lg md:text-xl mb-2 text-yellow-800">
               Sea Shore Front, Vizag
@@ -123,8 +132,11 @@ function OurWedding() {
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
               14th February, 2024
             </p>
+            <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
+              3:53 AM (early hours of Thursday morning)
+            </p>
             <p className="text-lg md:text-xl mb-2 text-yellow-800">
-              Novotel Varun Beach
+              Novotel V-Convention Hall, R.K Beach Road, Visakhapatnam
             </p>
 
             <p className="text-base md:text-lg mt-5 text-yellow-950">
@@ -145,6 +157,9 @@ function OurWedding() {
             </p>
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
               14th February, 2024
+            </p>
+            <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
+              7:00 PM
             </p>
             <p className="text-lg md:text-xl mb-2 text-yellow-800">
               Novotel Varun Beach
