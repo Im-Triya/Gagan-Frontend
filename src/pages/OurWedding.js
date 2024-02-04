@@ -130,7 +130,7 @@ function OurWedding() {
               Wedding Ceremony
             </p>
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
-              14th February, 2024
+              15th February, 2024
             </p>
             <p className="text-xl md:text-2xl text-bold text-yellow-900 mb-2">
               3:53 AM (early hours of Thursday morning)

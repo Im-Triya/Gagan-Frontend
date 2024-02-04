@@ -26,7 +26,7 @@ function Home() {
             We are getting married
           </div>
           <div className="text-5xl lg:text-8xl text-yellow-950 font-thin p-5 sm:p-10">
-            14 <span className="text-5xl">th</span> February, 2024
+            15 <span className="text-5xl">th</span> February, 2024
           </div>
           <div className="text-4xl lg:text-3xl text-yellow-600 p-5 sm:p-10">
             Novotel, Visakhapatnam
